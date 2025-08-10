@@ -1,1 +1,1 @@
-console.log("Shiv")
+console.log("My First step towards JS")
