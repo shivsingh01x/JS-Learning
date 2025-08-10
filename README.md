@@ -1,2 +1,4 @@
-# JS-Learning
-JS Learning Progress
+# JavaScript Learning Curve
+
+----Table of Content----
+* Basic
