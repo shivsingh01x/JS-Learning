@@ -21,15 +21,15 @@ newObj.isLoggedIn = false
 // console.log(typeof(newObj), ",", typeof(Synx));
 
 newObj.email = "ShivSingh01x@gmail.com"
-Object.freeze(newObj) //freezing object :- to prevent the value from Being changed
+// Object.freeze(newObj) //freezing object :- to prevent the value from Being changed
 newObj.email = "ShivSinghKeerx@gmail.com"
 // console.log(newObj.email);
 
 
 // adding function in object
 
-newObj.greeting = function() {
-        console.log("Good Morning");
+newObj.greeting = function(){
+    console.log("This is for testing of function in object");
     }
 
 console.log(newObj.greeting());
