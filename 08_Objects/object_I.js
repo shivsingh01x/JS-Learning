@@ -32,4 +32,9 @@ newObj.greeting = function(){
     console.log("This is for testing of function in object");
     }
 
-console.log(newObj.greeting());
+
+    newObj.greetingtwo = function(){
+        console.log(`This is the sample of String Interpolation ${newObj.email}`);
+}
+
+    console.log(newObj.greetingtwo());
