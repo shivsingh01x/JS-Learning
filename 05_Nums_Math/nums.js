@@ -14,5 +14,3 @@ console.log(prevalue.toPrecision(3));
 
 const thousand = 105210548
 console.log(thousand.toLocaleString('en-in'));
-
-

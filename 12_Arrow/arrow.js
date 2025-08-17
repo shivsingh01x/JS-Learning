@@ -1,4 +1,4 @@
-// how to use this and current contest in js
+/// how to use this and current contest in js
 
 const user1 = {
     username: "ShivSinghKeer",
@@ -25,5 +25,3 @@ function chai(){
 }
 
 chai()
-
-
