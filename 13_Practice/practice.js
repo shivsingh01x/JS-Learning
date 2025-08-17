@@ -77,3 +77,42 @@
 
 
 // ========================================| Nums in JS |==================================
+
+// const marks = 600
+// console.log(typeof(marks), marks)
+
+// const balance = new Number(800)
+// console.log(typeof(balance), balance)
+
+// console.log(balance.toString().length)
+// console.log(balance.toFixed(2))
+
+// const presiceNum = 45.4
+// console.log(presiceNum.toPrecision(2))
+
+// const thousand = 10005110
+// console.log(thousand.toLocaleString('en-in'))
+
+
+
+
+// =====================================| Date in JS |=======================================
+
+// let myBasicDate = Date()
+// let myDate = new Date()
+
+// console.log(typeof(myBasicDate), myBasicDate)
+// console.log(typeof(myDate), myDate)
+
+let myDate = new Date()
+
+console.log("Simple Printing:", myDate)
+console.log("toDateString:", myDate.toDateString())
+console.log("toLocaleDateString:", myDate.toLocaleDateString())
+console.log("toLocaleString:", myDate.toLocaleString())
+console.log("toLocaleTimeString:", myDate.toLocaleTimeString())
+console.log("toString:", myDate.toString())
+console.log("toTimeString:", myDate.toTimeString())
+console.log("toUTCString:", myDate.toUTCString())
+console.log("toISOString:", myDate.toISOString())
+console.log("toJSON:", myDate.toJSON())
