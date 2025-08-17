@@ -104,15 +104,39 @@
 // console.log(typeof(myBasicDate), myBasicDate)
 // console.log(typeof(myDate), myDate)
 
-let myDate = new Date()
+// let myDate = new Date()
 
-console.log("Simple Printing:", myDate)
-console.log("toDateString:", myDate.toDateString())
-console.log("toLocaleDateString:", myDate.toLocaleDateString())
-console.log("toLocaleString:", myDate.toLocaleString())
-console.log("toLocaleTimeString:", myDate.toLocaleTimeString())
-console.log("toString:", myDate.toString())
-console.log("toTimeString:", myDate.toTimeString())
-console.log("toUTCString:", myDate.toUTCString())
-console.log("toISOString:", myDate.toISOString())
-console.log("toJSON:", myDate.toJSON())
+// console.log("Simple Printing:", myDate)
+// console.log("toString:", myDate.toString())
+// console.log("toLocaleString:", myDate.toLocaleString())
+// console.log(" ")
+// console.log("toDateString:", myDate.toDateString())
+// console.log("toLocaleDateString:", myDate.toLocaleDateString())
+// console.log(" ")
+// console.log("toTimeString:", myDate.toTimeString())
+// console.log("toLocaleTimeString:", myDate.toLocaleTimeString())
+// console.log(" ")
+// console.log("toUTCString:", myDate.toUTCString())
+// console.log("toISOString:", myDate.toISOString())
+// console.log("toJSON:", myDate.toJSON())
+
+// let myCreateDate = new Date(2024, 0, 23)
+// let myCreateDate = new Date(2024, 0, 23, 5, 3, 29)
+// let myCreateDate = new Date("08-12-2025")
+// console.log(myCreateDate.toString())
+
+// let myTimeStamp = Date.now()
+// console.log(myTimeStamp)
+// console.log(myCreateDate.getTime())
+
+// console.log(Math.round(Date.now()/1000))
+
+// let newDate = new Date()
+// console.log(newDate)
+// console.log(newDate.getMonth() + 1)
+// console.log(newDate.getDay())
+// console.log(newDate.getDate())
+
+// newDate.toLocaleString('default', {
+//     weekday: "long"
+// })
