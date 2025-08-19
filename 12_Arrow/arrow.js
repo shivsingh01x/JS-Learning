@@ -42,13 +42,19 @@ function chai(){
 
 // thisuser()
 
+
+// Explicit Return
 // const newUser = (num1, num2) => {
 //     return num1 + num2
 // }
 
 // console.log(newUser(5, 2))
 
-// Inpelicit Return
-const anotherUser = (num1, num2) => (num1 + num2)
 
-console.log(anotherUser(5, 4))
+// Impelicit Return
+const anotherUser = (num1, num2) => (num1 + num2)
+// console.log(anotherUser(5, 4))
+
+
+const objectReturn = () => ({username: "ShivSinghKeer"})
+console.log(objectReturn())
