@@ -24,4 +24,31 @@ function chai(){
     console.log(this.username)
 }
 
-chai()
+// chai()
+
+// const thisuser = function(){
+//     let usernamexx = "Shiv Singh Keer"
+//     console.log(usernamexx)
+// }
+
+// thisuser()
+
+// arrow function came later in js in bs6
+
+// const thisuser = () => {
+//     let usernamexx = "Shiv Singh Keer"
+//     console.log(usernamexx)
+// }
+
+// thisuser()
+
+// const newUser = (num1, num2) => {
+//     return num1 + num2
+// }
+
+// console.log(newUser(5, 2))
+
+// Inpelicit Return
+const anotherUser = (num1, num2) => (num1 + num2)
+
+console.log(anotherUser(5, 4))
