@@ -37,17 +37,27 @@
 
 // using if else if and else
 
-const currentBalance = 250
+// const currentBalance = 300
 
-if ( currentBalance > 50 && currentBalance < 100 ){
-    console.log(`Your balance is btwn 50 and 100 & the amount is ${currentBalance}`)
+// if ( currentBalance > 50 && currentBalance <= 100 ){
+//     console.log(`Your balance is btwn 50 and 100 & the amount is ${currentBalance}`)
+// }
+// else if ( currentBalance > 100 && currentBalance <= 200 ){
+//     console.log(`Your balance is btwn 100 and 200 & the amount is ${currentBalance}`)
+// }
+// else if ( currentBalance > 200 && currentBalance <= 300 ){
+//     console.log(`Your balance is btwn 200 and 300 & the amount is ${currentBalance}`)
+// }
+// else{
+//     console.log(`All above conditions are not matched & your amount is ${currentBalance}`)
+// }
+
+const IsUserLoggedIn = true
+const IsDebtCard = false
+
+if (IsUserLoggedIn && IsDebtCard){
+    console.log(`You Can log in Now`)
 }
-else if ( currentBalance > 100 && currentBalance < 200 ){
-    console.log(`Your balance is btwn 100 and 200 & the amount is ${currentBalance}`)
-}
-else if ( currentBalance > 200 && currentBalance < 300 ){
-    console.log(`Your balance is btwn 200 and 300 & the amount is ${currentBalance}`)
-}
-else{
-    console.log(`All above conditions are not matched & your amount is ${currentBalance}`)
+else {
+    console.log(`Please Buy the Plan, Your plain had expired!`)
 }
