@@ -8,10 +8,12 @@ while (index <= 20){
 
 // while loop with array
 
-let myArray = [ "flash", "batman", "superman"]
+let myArray = ["flash", "batman", "superman"]
 
 let arr = 0
 while (arr < myArray.length){
     console.log(`value is ${myArray[arr]}`)
     arr = arr + 1
 }
+
+// do while loop in js
